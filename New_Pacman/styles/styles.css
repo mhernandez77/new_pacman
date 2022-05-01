@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6,th{
+    font-family: "Montserrat",sans-serif;
+}
+body{
+    font-family: "Open Sans",sans-serif;
+}
+
+
+.navbar-nav a{
+    text-decoration: none;
+}
+
+.bgimg {
+    min-height: 200px;
+    backdrop-filter: blur(4px);
+}
+
+.bgimg .main-title, .bgimg .subtitle {
+    color: #fff;
+    text-shadow: 2px 2px 2px #2B2B2B;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+#canvas{
+    position: relative;
+    background-color: #60f; 
+    width:1200; 
+    height:90%; 
+    padding:0;
+    overflow: hidden;
+    top:0;
+    left:0;
+}
+.btn-dark:hover{
+    background-color:#60f;
+}
+nav{
+    background-color: #f36; 
+}
+.navbar-toggler{
+    color: white;
+    border-color:white;
+}
+span.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

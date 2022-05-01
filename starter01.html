@@ -1,0 +1,71 @@
+<!--<html>-->
+
+<!--<script src='pacman.js'></script>-->
+
+<!--<SCRIPT>-->
+<!--&lt;!&ndash;    var pos = 0;&ndash;&gt;-->
+<!--    //The images in the array are chosen based on dependent on direction and focus-->
+<!--    const pacArray = [-->
+<!--        ['PacMan1.png', 'PacMan2.png'],-->
+<!--        ['PacMan3.png', 'PacMan4.png']-->
+<!--    ];-->
+
+<!--// direction is either left to right or right to left = either 0 or 1-->
+<!--&lt;!&ndash;    var direction = 0;&ndash;&gt;-->
+<!--&lt;!&ndash;    var focus = 0;&ndash;&gt;-->
+
+<!--&lt;!&ndash;    function Run() {&ndash;&gt;-->
+<!--&lt;!&ndash;        let img = document.getElementById("PacMan");&ndash;&gt;-->
+<!--&lt;!&ndash;        let imgWidth = img.width&ndash;&gt;-->
+<!--//we're dividing by '2' and taking the remainder. even focus = '0'. odd 'focus'= 1-->
+<!--&lt;!&ndash;        focus = (focus + 1) % 2;&ndash;&gt;-->
+<!--&lt;!&ndash;        direction = checkPageBounds(direction, imgWidth);&ndash;&gt;-->
+<!--// The image source //The images in the array are chosen based on dependent on direction and focus-->
+<!--&lt;!&ndash;        img.src = pacArray[direction][focus];&ndash;&gt;-->
+<!--// Condition for direction. If direction is true, then the position is incremented by '-20' (going left?)-->
+<!--//if direction is 1, it is true. And it will be going from right to left. N-->
+<!--// 0=not true, so addition causes the direction to go from left to right-->
+<!--// &lt;!&ndash;        if (direction) {&ndash;&gt;-->
+<!--// &lt;!&ndash;            pos -= 20;&ndash;&gt;-->
+<!--// &lt;!&ndash;            img.style.left = pos + "px";&ndash;&gt;-->
+<!--// &lt;!&ndash;        } else {&ndash;&gt;-->
+<!--// &lt;!&ndash;            pos += 20;&ndash;&gt;-->
+<!--// &lt;!&ndash;            img.style.left = pos + 'px';&ndash;&gt;-->
+<!--// &lt;!&ndash;        }&ndash;&gt;-->
+<!--// &lt;!&ndash;        // Use setTimeout to call Run every 200 millesecs&ndash;&gt; 'setTimeout' needs to call 'Run( )'-->
+<!--// &lt;!&ndash;    }&ndash;&gt;-->
+<!--// where we check where the image is and whether the left-hand side is less than 0 or the right-hand side is bigger-->
+<!--// than your page width.-->
+<!--// function checkPageBounds(direction, imgWidth)-->
+<!--// &lt;!&ndash;        //&ndash;&gt;-->
+<!--// &lt;!&ndash;        // Complete this to reverse direction on hitting page bounds&ndash;&gt;-->
+<!--// &lt;!&ndash;        // &ndash;&gt;-->
+<!--// return direction;-->
+<!--// }-->
+<!--</SCRIPT>&ndash;&gt;-->
+
+<!--<body>-->
+<!--    <img id="PacMan" src="PacMan1.png" width='200' onclick="Run()" style="position:absolute"> </img>-->
+<!--</body>-->
+
+<!--</html>-->
+
+<html>
+<head>
+    <title>Pac-man</title>
+</head>
+<body>
+<img
+        id="PacMan"
+        src="images/PacMan1.png"
+        width="200"
+        onclick="Run()"
+        style="position: absolute"
+
+
+/>
+
+<!-- DO NOT CHANGE THIS LINE OF CODE -->
+<script src="./pacman.js"></script>
+</body>
+</html>
